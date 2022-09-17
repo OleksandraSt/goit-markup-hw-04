@@ -283,7 +283,7 @@ button {
     padding-bottom: 94px;
 }
 
-.our-work {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -308,15 +308,6 @@ button {
 
 .team {
     background-color: var(--lightbackground-color);
-}
-
-.our-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
 }
 
 .team-list {
@@ -353,6 +344,42 @@ button {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+}
+
+/* Clients */
+
+.clients {
+    display: flex;
+}
+
+.client-item {
+    margin-right: 30px;
+}
+
+.client-item:last-child {
+    margin-right: 0;
+}
+
+.client-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: var(--primary-background-color);
+    color: #AFB1B8;
+}
+
+.client-link:hover,
+.client-link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.client-icon {
+    fill: currentColor;
 }
 
 /* Footer */
