@@ -224,6 +224,15 @@ button {
     padding-bottom: 94px;
 }
 
+.features-background{
+    background-color: var(--lightbackground-color);
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
 .features-item {
     font-weight: 700;
     font-size: 14px;
@@ -252,14 +261,6 @@ button {
 
 .features-li:last-child {
     margin-right: 0;
-}
-
-.features-icons {
-    margin-top: 25px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-    margin-left: 100px;
-    /* background-color: var(#F5F4FA); */
 }
 
 /* Work */
