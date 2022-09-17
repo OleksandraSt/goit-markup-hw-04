@@ -316,6 +316,24 @@ button {
     margin-right: -30px;
 }
 
+.card {
+    background-color: var(--primary-background-color);
+    margin-right: 30px;
+    flex-basis: calc(100% / 4 - 30px);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card-descr {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
@@ -328,23 +346,36 @@ button {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    padding-bottom: 16px;
+}
+ 
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
-.card {
-    background-color: var(--primary-background-color);
-    margin-right: 30px;
-    flex-basis: calc(100% / 4 - 30px);
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
 }
 
-.card:last-child {
-    margin-right: 0;
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-text-darkbackground-color);
 }
 
-.card-descr {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+.social-icon {
+    fill: currentColor;
 }
+
 
 /* Clients */
 
