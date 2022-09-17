@@ -20,7 +20,8 @@ html {
     --dark-logo-color: #000000;
     --hero-button-hover-accent-color: #188CE8;
     --border-header-color: #ECECEC;
-    --border-portfolio-color: #EEEEEE; 
+    --border-portfolio-color: #EEEEEE;
+    --hero-background-color: #C4C4C4;
 }
 
 body {
@@ -172,10 +173,22 @@ button {
 /* Hero */
 
 .hero {
-    background-color: var(--darkbackground-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    background-color: var(--hero-background-color);
     text-align: center;
+}
+
+.overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-text {
