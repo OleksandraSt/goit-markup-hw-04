@@ -421,6 +421,15 @@ button {
     padding-bottom: 60px;
 }
 
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.company-info {
+    margin-right: 70px;
+}
+
 .logo-footer {
     font-family: 'Raleway';
     font-size: 26px;
@@ -463,6 +472,38 @@ button {
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--accent-color);
+}
+
+.social-title {
+    color: var(--primary-text-darkbackground-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer .social-links {
+    padding: 0;
+}
+
+.social-item {
+    margin-right: 10px;
+}
+
+.social-item:last-child{
+    margin-right: 0;
+}
+
+.footer .social-link {
+color: var(--primary-text-darkbackground-color);
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+    background-color: var(--accent-color);
 }
 
 /* Cторінка Portfolio */
